@@ -40,7 +40,7 @@
     </table>
     <br><br><br>
     <h4>Please insert form below to booking:</h4>
-    <form action="function.php" method="post">
+    <form action="result.php" method="post">
         <table>
             <tr>
                 <th>Name</th>
@@ -61,7 +61,7 @@
             </tr>
             <tr>
                 <th>Days</th>
-                <td><input type="number" name="days" id="days" value="1 =="></td>
+                <td><input type="number" name="days" id="days" value="1"></td>
             </tr>
         </table>
         <br>
