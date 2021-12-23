@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -36,6 +37,21 @@
         <tr>
             <td>Superior beach front</td>
             <td>RM579</td>
+        </tr>
+    </table>
+    <br>
+    <h4>Additional service</h4>
+    <table>
+        <tr>
+            <th colspan="2">Optional</th>
+        </tr>
+        <tr>
+            <td>Scuba Diving</td>
+            <td>RM60</td>
+        </tr>
+        <tr>
+            <td>Water Rafting</td>
+            <td>RM30</td>
         </tr>
     </table>
     <br><br><br>
