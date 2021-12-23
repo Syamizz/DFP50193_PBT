@@ -40,18 +40,18 @@
     </table>
     <br><br><br>
     <h4>Please insert form below to booking:</h4>
-    <form action="result.php" method="post">
+    <form action="function.php" method="post">
         <table>
             <tr>
                 <th>Name</th>
-                <td><input type="text" class="form-control" name="nama"></td>
+                <td><input type="text" class="form-control" name="name"></td>
             </tr>
             <tr>
                 <th>Room type</th>
                 <td>
                     <select name="room" id="room" class="form-control">
                         <option value=""></option>
-                        <option value="Standart chalet">Standard chalet</option>
+                        <option value="Standard chalet">Standard chalet</option>
                         <option value="Superior chalet">Superior chalet</option>
                         <option value="Superior pool view">Superior pool view</option>
                         <option value="Standard beach front">Standard beach front</option>
@@ -61,11 +61,7 @@
             </tr>
             <tr>
                 <th>Days</th>
-                <td><input type="number" name="days" id="days"></td>
-            </tr>
-            <tr>
-                <th>Date</th>
-                <td><input type="date" name="date" id="date"></td>
+                <td><input type="number" name="days" id="days" value="1 =="></td>
             </tr>
         </table>
         <br>
